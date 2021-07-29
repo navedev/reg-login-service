@@ -60,4 +60,7 @@ public class User {
 	@Size(max = 500)
 	@Column(name = "learner_id")
 	private String learnerId;
+	
+	@Column(name = "plan_id")
+	private Long planId;
 }
